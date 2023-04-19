@@ -42,14 +42,28 @@
     background-color: #3882F6;
     color:#E5E7EB;
     border:none;
-    border-radius: 10%;
+    border-radius: 8px; 
+    /* background-color: #04AA6D; */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; 
 }
 
-.button.sign-up-2 {
-    border: #E5E7EB;
-    border-radius: 15%;
-
+.button:hover {
+    background-color: #1269f7;
+    cursor: pointer;
 }
+
+.call-to-action .button-2 {
+    border: 3px solid #0661f5;
+    }
+
+.
 
 ul {
     list-style: none;
@@ -157,6 +171,10 @@ ul a {
     background-color:#f9faf8 ;
     height: 25vh;
     
+  }
+
+  .info .container {
+    display: flex;
   }
 
 
